@@ -1,1 +1,2 @@
+// Ignore the collision (with a plataform above him) while the player jumps. 
 Physics2D.IgnoreLayerCollision(LayerNumberPlayer, LayerNumerObject, (rigidbody2D.velocity.y > 0.0f));
