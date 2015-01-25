@@ -1,0 +1,14 @@
+if (Input.touchCount > 0){
+	if (Input.GetTouch(0).phase == TouchPhase.Began) {
+	
+	// Get the touched object in the screen
+		RaycastHit2D hitInfo = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position), Vector2.zero);
+		
+	// Get the information about the touched object 
+			if(hitInfo){
+				if(hitInfo.transform.gameObject.name == "GameObject"){
+					// code
+			}	
+		}
+	}
+}
