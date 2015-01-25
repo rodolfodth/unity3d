@@ -1,0 +1,8 @@
+private AudioSource[] allAudioSources;
+
+allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+
+// stop all sounds in the scene
+foreach(AudioSource audioS in allAudioSources) {
+	audioS.Stop();
+}
