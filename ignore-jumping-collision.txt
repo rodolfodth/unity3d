@@ -1,0 +1,1 @@
+Physics2D.IgnoreLayerCollision(LayerNumberPlayer, LayerNumber, (rigidbody2D.velocity.y > 0.0f));
